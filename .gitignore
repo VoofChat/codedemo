@@ -29,3 +29,10 @@
 
 
 
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+codedemo.iml
+target/generated-sources/
+target/generated-test-sources/
