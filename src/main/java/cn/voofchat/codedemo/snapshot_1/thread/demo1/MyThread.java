@@ -15,9 +15,8 @@ public class MyThread extends Thread {
     private Integer count = 5;
 
     @Override
-    public synchronized  void run() {
-//    public void run() {
-        super.run();
+//    public synchronized  void run() {
+    public void run() {
 
         count--;
         System.out.println(this.currentThread().getName() + "\t count = " + count);
