@@ -23,7 +23,7 @@ public class ObjectLock {
     }
 
     /**
-     * 类锁
+     * 类对象锁
      */
     public void method2(){
         synchronized (ObjectLock.class){
@@ -54,7 +54,10 @@ public class ObjectLock {
     public static void main(String[] args) {
         ObjectLock ol = new ObjectLock();
         new Thread(() -> ol.method1()).start();
+        new Thread(() -> ol.method1()).start();
         new Thread(() -> ol.method2()).start();
+        new Thread(() -> ol.method2()).start();
+        new Thread(() -> ol.method3()).start();
         new Thread(() -> ol.method3()).start();
     }
 }

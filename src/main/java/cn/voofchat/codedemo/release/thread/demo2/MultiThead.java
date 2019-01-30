@@ -17,6 +17,7 @@ public class MultiThead {
     private static Integer num = 0;
 
     public static synchronized void printNum(String tag){
+//    public synchronized void printNum(String tag){
 
         try {
             if ("a".equals(tag)){
