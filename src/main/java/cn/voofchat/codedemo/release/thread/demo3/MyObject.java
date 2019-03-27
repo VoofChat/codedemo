@@ -27,7 +27,9 @@ public class MyObject {
     /***
      * 如果在method2上加上synchronized 关键字，结果会是怎样
      */
+//    public void method2(){
     public synchronized void method2(){
+
         System.out.println( Thread.currentThread().getName() + ", method2");
     }
 

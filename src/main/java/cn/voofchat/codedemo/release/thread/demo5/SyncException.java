@@ -4,7 +4,7 @@ package cn.voofchat.codedemo.release.thread.demo5;
  * @author: zhengzhixiong@baijiahulian.com
  * @date: 2018/10/6
  * @time: 下午4:34
- * Description:
+ * Description: 锁出现异常会自动释放锁
  */
 public class SyncException {
 
